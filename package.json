@@ -1,0 +1,42 @@
+{
+  "name": "stoned",
+  "version": "0.0.1",
+  "description": "Stoned",
+  "main": "server.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robinduckett/stoned.git"
+  },
+  "keywords": [
+    "Node.JS",
+    "node",
+    "nodejs",
+    "bittorrent",
+    "tracker",
+    "announce"
+  ],
+  "author": "Robin Duckett",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robinduckett/stoned/issues"
+  },
+  "dependencies": {
+    "bencode": "~0.5.2",
+    "eson": "~0.4.1",
+    "winston": "~0.7.2",
+    "express": "~3.4.8",
+    "mongodb": "~1.3.23"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt": "~0.4.2",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-mocha-cli": "~1.5.0",
+    "chai": "~1.8.1",
+    "sinon": "~1.7.3",
+    "should": "~3.0.1"
+  }
+}
